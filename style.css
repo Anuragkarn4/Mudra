@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -74,3 +75,81 @@ button:hover {
 }
 
 
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #4e8db9, #927aaa);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #d9dbe3;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(9, 17, 26, 0.752);
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background: #667eea;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #7d609b;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #444;
+}
+
+.material-symbols-outlined {
+    font-size: 60px;
+    color: black
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px auto;
+}
+
+
+>>>>>>> e8ae76f2f99d03e8b38cfbd28fa962548ccb9542
